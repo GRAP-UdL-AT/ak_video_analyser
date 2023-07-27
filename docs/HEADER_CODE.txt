@@ -1,0 +1,46 @@
+# TEMPLATE EMPTY HEADER
+"""
+Project:
+Author:
+Date:
+Description:
+...
+
+Use:
+"""
+
+# TEMPLATE PROJECT
+"""
+Project: ak-video-analyser Azure Kinect Video Analyser
+Github repository: https://github.com/juancarlosmiranda/ak_video_analyser
+
+Author: Juan Carlos Miranda
+* https://juancarlosmiranda.github.io/
+* https://github.com/juancarlosmiranda/
+
+Date: February 2021
+Description:
+
+Use:
+
+"""
+
+
+# HEADER FOR BASH SCRIPTS
+# Project: ak-video-analyser Azure Kinect Video Analyser
+#
+# Github repository: https://github.com/juancarlosmiranda/ak_video_analyser
+# Author: Juan Carlos Miranda
+# https://juancarlosmiranda.github.io/
+# https://github.com/juancarlosmiranda/
+#
+
+
+REM HEADER FOR WINDOW SYSTEMS
+REM Project: ak-video-analyser Azure Kinect Video Analyser
+REM
+REM  Github repository: https://github.com/juancarlosmiranda/ak_video_analyser
+REM  Author: Juan Carlos Miranda
+REM  https://juancarlosmiranda.github.io/
+REM  https://github.com/juancarlosmiranda/
+REM
