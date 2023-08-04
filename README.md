@@ -268,7 +268,7 @@ This work was partly funded by the Department of Research and Universities of th
 SGR 646) and by the Spanish Ministry of Science and Innovation/AEI/10.13039/501100011033/ERDF (grant
 RTI2018-094222-B-I00 [PAgFRUIT project](https://www.pagfruit.udl.cat/en/) and PID2021-126648OB-I00 [PAgPROTECT project](https://www.grap.udl.cat/en/recerca/projectes-de-recerca/pagprotect/). The Secretariat of Universities
 and Research of the Department of Business and Knowledge of the [Generalitat de Catalunya](https://web.gencat.cat) and European Social Fund (ESF)
-are also thanked for financing Juan Carlos Miranda’s pre-doctoral fellowship (2020 FI_B 00586). The work of Jordi
+are also thanked for financing Juan Carlos Miranda’s pre-doctoral fellowship ([2020 FI_B 00586](https://agaur.gencat.cat/en/inici/index.html)). The work of Jordi
 Gené-Mola was supported by the Spanish Ministry of Universities through a Margarita Salas postdoctoral grant funded by
 the European Union - NextGenerationEU. The authors would also like to thank the Institut de Recerca i Tecnologia
 Agroalimentàries [(IRTA)](https://www.irta.cat/es/) for allowing the use of their experimental fields, and in particular Dr. Luís Asín and Dr. Jaume
