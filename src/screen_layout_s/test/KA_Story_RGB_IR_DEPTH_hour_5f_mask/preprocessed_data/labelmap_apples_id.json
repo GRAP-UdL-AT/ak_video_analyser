@@ -1,0 +1,147 @@
+[
+    {
+        "object_id": 0,
+        "keyboard_shortcut": "0",
+        "object_name": "background"
+    },
+    {
+        "object_id": 1,
+        "keyboard_shortcut": "1",
+        "object_name": "2118"
+    },
+    {
+        "object_id": 2,
+        "keyboard_shortcut": "2",
+        "object_name": "2119"
+    },    
+    {
+        "object_id": 3,
+        "keyboard_shortcut": "3",
+        "object_name": "2120"
+    },
+    {
+        "object_id": 4,
+        "keyboard_shortcut": "4",
+        "object_name": "2122"
+    },
+    {
+        "object_id": 5,
+        "keyboard_shortcut": "5",
+        "object_name": "2124"
+    },
+    {
+        "object_id": 6,
+        "keyboard_shortcut": "6",
+        "object_name": "2125"
+    },    
+    {
+        "object_id": 7,
+        "keyboard_shortcut": "7",
+        "object_name": "2129"
+    },
+    {
+        "object_id": 8,
+        "keyboard_shortcut": "8",
+        "object_name": "2132"
+    },
+    {
+        "object_id": 9,
+        "keyboard_shortcut": "9",
+        "object_name": "2133"
+    },
+    {
+        "object_id": 10,
+        "keyboard_shortcut": "10",
+        "object_name": "2134"
+    },
+    {
+        "object_id": 11,
+        "keyboard_shortcut": "11",
+        "object_name": "2136"
+    },
+    {
+        "object_id": 12,
+        "keyboard_shortcut": "12",
+        "object_name": "2163"
+    },	
+    {
+        "object_id": 13,
+        "keyboard_shortcut": "13",
+        "object_name": "2164"
+    },
+    {
+        "object_id": 14,
+        "keyboard_shortcut": "14",
+        "object_name": "2167"
+    },
+    {
+        "object_id": 15,
+        "keyboard_shortcut": "15",
+        "object_name": "2168"
+    },
+    {
+        "object_id": 16,
+        "keyboard_shortcut": "16",
+        "object_name": "2171"
+    },
+    {
+        "object_id": 17,
+        "keyboard_shortcut": "17",
+        "object_name": "2174"
+    },
+    {
+        "object_id": 18,
+        "keyboard_shortcut": "18",
+        "object_name": "BALL_060"
+    },
+    {
+        "object_id": 19,
+        "keyboard_shortcut": "19",
+        "object_name": "BALL_120"
+    },	
+    {
+        "object_id": 20,
+        "keyboard_shortcut": "20",
+        "object_name": "3202"
+    },
+    {
+        "object_id": 21,
+        "keyboard_shortcut": "21",
+        "object_name": "3203"
+    },
+    {
+        "object_id": 22,
+        "keyboard_shortcut": "22",
+        "object_name": "1022"
+    },
+    {
+        "object_id": 23,
+        "keyboard_shortcut": "23",
+        "object_name": "1046"
+    },
+    {
+        "object_id": 24,
+        "keyboard_shortcut": "24",
+        "object_name": "1050"
+    },
+    {
+        "object_id": 25,
+        "keyboard_shortcut": "25",
+        "object_name": "1051"
+    },
+    {
+        "object_id": 26,
+        "keyboard_shortcut": "26",
+        "object_name": "1071"
+    },
+    {
+        "object_id": 27,
+        "keyboard_shortcut": "27",
+        "object_name": "1083"
+    },
+    {
+        "object_id": 28,
+        "keyboard_shortcut": "28",
+        "object_name": "2151"
+    }	
+]
