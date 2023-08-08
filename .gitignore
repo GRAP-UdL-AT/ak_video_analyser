@@ -16,3 +16,5 @@ src/my_package_MY_APP_NAME_HERE.egg-info/SOURCES.txt
 src/my_package_MY_APP_NAME_HERE.egg-info/top_level.txt
 __token__.py
 *.pth
+*.whl
+*.gz
