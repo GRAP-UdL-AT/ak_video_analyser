@@ -25,9 +25,10 @@ if __name__ == '__main__':
     # ------------
     path_user_input_folder = os.path.join(package_path, 'input_folder')
     path_user_output_folder = os.path.join(package_path, 'output_results')
-    path_user_output_csv_folder = os.path.join(BASE_DIR, path_user_output_folder, 'output_csv')
-    path_user_output_img_folder = os.path.join(BASE_DIR, path_user_output_folder, 'output_img')
-
+    path_user_output_csv_folder = os.path.join(path_user_output_folder, 'output_csv')
+    path_user_output_img_folder = os.path.join(path_user_output_folder, 'output_img')
+    #path_user_output_csv_folder = os.path.join(BASE_DIR, path_user_output_folder, 'output_csv')
+    #path_user_output_img_folder = os.path.join(BASE_DIR, path_user_output_folder, 'output_img')
 
     print(f'user_path -> {user_path}')
     print(f'package_path -> {package_path}')
@@ -40,7 +41,7 @@ if __name__ == '__main__':
     if os.path.exists(path_user_output_folder):
         print('Directory exist!!!', path_user_output_folder)
     else:
-        os.mkdir(path_user_trained_models_folder)
+        #os.mkdir(path_user_trained_models_folder)
         os.mkdir(path_user_input_folder)
         os.mkdir(path_user_output_folder)
         os.mkdir(path_user_output_csv_folder)
@@ -54,6 +55,7 @@ if __name__ == '__main__':
         if os.path.exists(path_user_trained_models_folder):
             print('Directory exist!!!', path_user_trained_models_folder)
         else:
+            pass
             # ------------------
             # create folders
             os.mkdir(path_user_trained_models_folder)
