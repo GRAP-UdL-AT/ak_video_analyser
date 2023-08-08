@@ -23,7 +23,7 @@ from video_analysis_v.video_analyser_framework import VideoAnalyserFramework
 
 def main_loop_video_analyser(args):
     current_main_path_str = __file__
-    package_path = os.path.join(os.path.dirname(os.path.normpath(current_main_path_str)), 'ak-video-analyser')
+    package_path = os.path.join(os.path.dirname(os.path.normpath(current_main_path_str)), 'ak_video_analyser')
     path_user_output_folder = os.path.join(package_path, 'output_results')
     trained_model_folder = os.path.join(package_path, 'conf', 'trained_model')
 

@@ -1,0 +1,10 @@
+screen_options=1920, 1080, 0.5, 0.5, VERTICAL, 500
+ depth_filter_options=500, 2500
+ object_detector_options=YOLO, <class 'ultralytics.yolo.engine.model.YOLO'>0.8, 0
+data_features_options=camera_conf = 1920, 1080, 1.25, 0.00125, 1040, 1040, 957.721497, 550.789368, 0.813556, -2.948416,
+roi_selector = BBOX,
+size_estimation_selector = BB,
+depth_selector = AVG,
+weight_selector = D1D2_LM_MET_01, 
+headers_resume_frame = ['pred.obj_detection', 'fruit_id', 'pred.axis_01_px', 'pred.axis_02_px', 'pred.depth_mm', 'pred.axis_01_mm', 'pred.axis_02_mm', 'pred.weight_gr'], 
+output_file_path=C:\Users\Usuari\development\SOFTX-S-23-00721\ak_video_analyser\src\ak_video_analyser\output_results

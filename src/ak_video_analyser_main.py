@@ -1,5 +1,5 @@
 """
-Project: ak-video-analyser Azure Kinect Video Analyser
+Project: ak_video_analyser Azure Kinect Video Analyser
 Github repository: https://github.com/juancarlosmiranda/ak_video_analyser
 
 Author: Juan Carlos Miranda
@@ -23,12 +23,12 @@ from helpers.helper_filesystem import *
 
 if __name__ == '__main__':
     user_path = expanduser("~")
-    BASE_DIR = os.path.join(os.path.abspath('.'), 'ak-video-analyser')
+    BASE_DIR = os.path.join(os.path.abspath('.'), 'ak_video_analyser')
     path_user_config_files = os.path.join(BASE_DIR, 'conf')
     ui_path_config_file = os.path.join(path_user_config_files, 'my_app_config.conf')
 
     current_main_path_str = __file__
-    package_path = os.path.join(os.path.dirname(os.path.normpath(current_main_path_str)), 'ak-video-analyser')
+    package_path = os.path.join(os.path.dirname(os.path.normpath(current_main_path_str)), 'ak_video_analyser')
     package_path_config_files = os.path.join(package_path, 'conf')
     path_user_trained_models_folder = os.path.join(package_path, 'conf', 'trained_model')
     path_user_input_folder = os.path.join(package_path, 'input_folder')
@@ -86,5 +86,5 @@ if __name__ == '__main__':
     # todo: add integration tests
 
 
-# C:\\Users\\Usuari\\development\\ak_video_analyser\\src\\ak-video-analyser\\conf'
+# C:\\Users\\Usuari\\development\\ak_video_analyser\\src\\ak_video_analyser\\conf'
 #

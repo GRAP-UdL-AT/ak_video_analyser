@@ -1,5 +1,5 @@
 """
-Project: ak-video-analyser Azure Kinect Video Analyser
+Project: ak_video_analyser Azure Kinect Video Analyser
 Github repository: https://github.com/juancarlosmiranda/ak_video_analyser
 
 Author: Juan Carlos Miranda
@@ -19,7 +19,7 @@ import configparser
 
 
 class GUIAKVideoAnalyserConfig:
-    app_title = 'AK Video Analyser (ak-video-analyser)'  # todo: change and unify
+    app_title = 'AK Video Analyser (ak_video_analyser)'  # todo: change and unify
     width = 600
     height = 800
     geometry_about = '300x480'

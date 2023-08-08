@@ -1,5 +1,5 @@
 """
-Project: ak-video-analyser Azure Kinect Video Analyser
+Project: ak_video_analyser Azure Kinect Video Analyser
 Github repository: https://github.com/juancarlosmiranda/ak_video_analyser
 
 Author: Juan Carlos Miranda

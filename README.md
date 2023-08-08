@@ -87,12 +87,18 @@ environment.
 
 ```
 python3 -m venv ./ak-video-analyser-venv
+
+# On Windows systems .\venv\Scripts\activate
 source ./ak-video-analyser-venv/bin/activate
+
+# On Windows systems python.exe -m pip install --upgrade pip
+
 pip install --upgrade pip
 
-pip install python -m ak-video-analyser
+pip install ak-video-analyser
 python -m ak-video-analyser
 ```
+* Download videos recorded with the Azure Kinect camera, optional video samples are available at [AK_FRAEX - Azure Kinect Frame Extractor demo videos](https://doi.org/10.5281/zenodo.6968103).
 
 ### 3.2 Install and run virtual environments using scripts provided
 
@@ -144,7 +150,7 @@ Folder description:
 |---------------------------|-------------------------|
 | [docs/](https://github.com/GRAP-UdL-AT/ak_video_analyser/tree/main/docs) | Documentation |
 | [src/](https://github.com/GRAP-UdL-AT/ak_video_analyser/tree/main/src) | Source code |
-| [data/](https://github.com/GRAP-UdL-AT/ak_video_analyser/tree/main/data) | Examples of input/ output. |
+| [AK_FRAEX - Azure Kinect Frame Extractor demo videos](https://doi.org/10.5281/zenodo.6968103) | Videos were recorded as is explained by [Miranda et al., 2022](https://doi.org/10.1016/j.softx.2022.101231) and examples available at [AK_FRAEX - Azure Kinect Frame Extractor demo videos](https://doi.org/10.5281/zenodo.6968103). |
 | . | . |
 
 Python environment files:

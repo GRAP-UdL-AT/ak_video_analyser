@@ -1,5 +1,5 @@
 """
-Project: ak-video-analyser Azure Kinect Video Analyser
+Project: ak_video_analyser Azure Kinect Video Analyser
 Github repository: https://github.com/juancarlosmiranda/ak_video_analyser
 
 Author: Juan Carlos Miranda
@@ -21,7 +21,7 @@ from gui_analyser.gui_video_analyser_config import GUIAKVideoAnalyserConfig
 class VideoAnalyserAboutWindow(tk.Toplevel):
     author_str = 'Juan Carlos Miranda'
     author_site_str = 'https://github.com/juancarlosmiranda'
-    title_str = 'AK Video Analyser \n(ak-video-analyser)'
+    title_str = 'AK Video Analyser \n(ak_video_analyser)'
     version_number_str = '1.0'
     release_date = 'February 2022'
 
