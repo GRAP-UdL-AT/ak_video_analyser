@@ -10,7 +10,7 @@ REM
 
 SET PROJECT_NAME=ak_video_analyser
 SET DIST_FOLDER=dist
-SET VERSION=0.0.1
+SET VERSION=0.0.2
 
 ECHO ---------------------
 ECHO CREATING PACKAGE

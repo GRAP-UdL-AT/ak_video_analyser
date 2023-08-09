@@ -84,7 +84,3 @@ if __name__ == '__main__':
     # todo: add validations of fields
     # todo: add unit tests
     # todo: add integration tests
-
-
-# C:\\Users\\Usuari\\development\\ak_video_analyser\\src\\ak_video_analyser\\conf'
-#
