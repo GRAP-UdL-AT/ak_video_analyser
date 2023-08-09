@@ -16,11 +16,15 @@ ECHO ---------------------
 ECHO CREATING PACKAGE
 ECHO ---------------------
 ECHO PROJECT_NAME=%PROJECT_NAME%
-ECHO 'pip package is OK -- '/%DIST_FOLDER%/ak_video_analyser-%VERSION%'-py3-none-any.whl
+
 ECHO ---------------------
 ECHO INSTALL PACKAGE WITH
 ECHO ---------------------
 rem https://packaging.python.org/en/latest/tutorials/packaging-projects/
 ECHO 'pip install ak_video_analyser-'%VERSION%'-py3-none-any.whl'
-rem py -m build
+
 python -m build
+
+ECHO 'pip package is OK -- '/%DIST_FOLDER%/ak_video_analyser-%VERSION%'-py3-none-any.whl
+ECHO 'UPLOAD FOR TEST PACKAGE USING - twine upload --repository testpypi ./dist/*'
+ECHO 'UPLOAD FINAL PACKAGE USING - twine upload ./dist/* --verbose'
