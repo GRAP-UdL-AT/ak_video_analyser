@@ -30,11 +30,15 @@ developed tools.
 | AK_VIDEO_ANALYSER - Azure Kinect Video Analyser ([https://github.com/GRAP-UdL-AT/ak_video_analyser/](https://github.com/GRAP-UdL-AT/ak_video_analyser/)) | Python based GUI tool for fruit size estimation and weight prediction from videos. |
 | Table 2. | Modules developed under the AKFruitYield family |
 
+
 ## AK_VIDEO_ANALYSER description
 
 [AK_VIDEO_ANALYSER](https://pypi.org/project/ak-video-analyser/) is a Python based GUI tool for fruit size estimation and weight prediction from videos recorded with
 the [Azure Kinect DK sensor](https://docs.microsoft.com/en/azure/kinect-dk/) camera  in [Matroska](https://matroska.org/) format (Fig 2.). It receives as input a set of videos to analyse and gives as result
 reports in CSV datasheet format with measures and weight predictions of each detected fruit. Videos were recorded as is explained by [Miranda et al., 2022](https://doi.org/10.1016/j.softx.2022.101231) and examples available at [AK_FRAEX - Azure Kinect Frame Extractor demo videos](https://doi.org/10.5281/zenodo.6968103).
+Table 1 shows the links to the other developed tools. This is the Github repository of **ak_video_analyser**, an installable version can be found published on [Pypi.org](https://pypi.org/search/?q=ak_simulator) at the following
+link [https://pypi.org/project/ak-video-analyser/](https://pypi.org/project/ak-video-analyser/)
+
 
 |                           |
 |---------------------------|

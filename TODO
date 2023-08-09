@@ -1,3 +1,7 @@
+https://test.pypi.org/project/ak-video-analyser/
+https://pypi.org/project/ak-video-analyser/
+
+
 Testing package
 ---------------------
 twine upload --repository testpypi ./dist/*

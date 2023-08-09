@@ -32,6 +32,8 @@ if __name__ == '__main__':
     path_user_trained_models_folder = os.path.join(path_user_config_files, 'trained_model')
 
     print(f'user_path -> {user_path}')
+    print('BASE_DIR->', BASE_DIR)
+    print('current_main_path_str', current_main_path_str)
     print(f'path_user_config_files -> {path_user_config_files}')
     print(f'package_path -> {package_path}')
     print(f'package_path_config_files -> {package_path_config_files}')
