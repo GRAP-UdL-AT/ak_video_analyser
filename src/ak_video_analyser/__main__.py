@@ -12,7 +12,7 @@ if __name__ == '__main__':
     BASE_DIR = os.path.abspath('.')  # it gives the current location
 
     current_main_path_str = __file__
-    package_path = os.path.dirname(os.path.normpath(current_main_path_str))
+    package_path = os.path.join(os.path.dirname(os.path.normpath(current_main_path_str)), 'ak_video_analyser')
     # ------------
     package_path_config_files = os.path.join(package_path, 'conf')
     ui_path_config_file = os.path.join(package_path, 'my_app_config.conf')
@@ -23,9 +23,10 @@ if __name__ == '__main__':
     path_package_trained_yolov3 = os.path.join(path_package_trained_models_folder, 'YOLOv3')
     # ------------
     # in the current folder of execution
-    path_user_config_files = os.path.join(BASE_DIR, 'conf')  # based in current execution
-    path_user_input_folder = os.path.join(BASE_DIR, 'input_folder')
-    path_user_output_folder = os.path.join(BASE_DIR, 'output_results')
+    root_folder = os.path.join(BASE_DIR, 'ak_video_analyser')  #
+    path_user_config_files = os.path.join(root_folder, 'conf')  # based in current execution
+    path_user_input_folder = os.path.join(root_folder, 'input_folder')
+    path_user_output_folder = os.path.join(root_folder, 'output_results')
     path_user_output_csv_folder = os.path.join(path_user_output_folder, 'output_csv')
     path_user_output_img_folder = os.path.join(path_user_output_folder, 'output_img')
     path_user_trained_models_folder = os.path.join(path_user_config_files, 'trained_model')
@@ -41,8 +42,9 @@ if __name__ == '__main__':
 
     # -------------------------
     # if directory doesn't exist, then create
-    if not os.path.exists(path_user_config_files):
-        print("Directory DOES'NT exist!!!", path_user_config_files)
+    if not os.path.exists(root_folder):
+        print("Directory DOES'NT exist!!!", root_folder)
+        os.mkdir(root_folder)
         os.mkdir(path_user_config_files)
         os.mkdir(path_user_trained_models_folder)
         os.mkdir(path_user_input_folder)
@@ -50,6 +52,7 @@ if __name__ == '__main__':
         os.mkdir(path_user_output_csv_folder)
         os.mkdir(path_user_output_img_folder)
         pass
+
     # Creating inputs folder
     if not os.path.exists(path_user_input_folder):
         print("Directory DOES'NT exist!!!", path_user_input_folder)

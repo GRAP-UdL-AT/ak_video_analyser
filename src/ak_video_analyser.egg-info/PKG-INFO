@@ -1,3 +1,18 @@
+Metadata-Version: 2.1
+Name: ak-video-analyser
+Version: 0.0.1
+Summary: AK_VIDEO_ANALYZER that analyses videos on which to automatically detect apples, estimate their size and predict yield at the plot or per hectare scale using the appropriate simulated algorithms.
+Home-page: https://github.com/GRAP-UdL-AT/ak_video_analyser/
+Author: Juan Carlos Miranda, Jaume Arno, Jordi Gene-Mola, Spyros Fountas, Eduard Gregorio
+Author-email: juancarlos.miranda@udl.cat, jaume.arno@udl.cat, jordi.genemola@udl.cat, sfountas@aua.gr, eduard.gregorio@udl.cat
+Project-URL: Bug Tracker, https://github.com/GRAP-UdL-AT/ak_video_analyser/issues/
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
 # AKFruitYield: AK_VIDEO_ANALYSER - Azure Kinect Video Analyser
 
 AKFruitYield is a modular software that allows orchard data from RGB-D Azure Kinect cameras to be processed for fruit

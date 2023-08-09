@@ -44,9 +44,8 @@ class VideoAnalyserAboutWindow(tk.Toplevel):
         about_text_info = f' \n' \
                           f'Developed by: {self.author_str}\n' \
                           f'{self.release_date} \n' \
-                          f' Advisors: author_01, author_02\n' \
-                          f' Collaborators: collaborator_01, collaborator_02\n' \
-                          f' i tothom, els que vulguin aparèixer aquí...'
+                          f' Advisors: Jaume Arno, Eduard Gregorio\n' \
+                          f' Collaborators: Jordi Gene-Mola, Spyros Fountas\n'
 
         project_text_info = f' \n' \
                             f'PAgFRUIT project RTI2018-094222-B-I00\n' \
@@ -57,7 +56,9 @@ class VideoAnalyserAboutWindow(tk.Toplevel):
                           f'AgroICT & Precision Agriculture\n' \
                           f'GRAP Universitat de Lleida\n' \
                           f'Agrotecnio - CERCA Center\n' \
-                          f'https://www.grap.udl.cat/'
+                          f'https://www.grap.udl.cat/\n' \
+                          f'Smart Farming Technology Group - Agricultural University of Athens\n' \
+                          f'https://www.aua.gr/'
 
         text_info['text'] = about_text_info
         text_info.pack(anchor=tk.CENTER)
