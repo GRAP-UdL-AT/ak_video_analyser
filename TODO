@@ -1,0 +1,21 @@
+Testing package
+---------------------
+twine upload --repository testpypi ./dist/*
+URL: https://test.pypi.org/project/ak-video-analyser/
+
+pip install -i https://test.pypi.org/simple/ ak-video-analyser
+
+Solving dependences conflicts
+-----------------------------
+pip install --index-url https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple ak-video-analyser
+
+
+
+twine upload ./dist/* --verbose
+pip install ak-simulator
+
+
+Local installation
+------------------
+pip install ak_simulator-0.0.7-py3-none-any.whl
+pip install ak_simulator-0.0.7-py3-none-any.whl --force-reinstall
