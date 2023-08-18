@@ -1,11 +1,16 @@
 https://test.pypi.org/project/ak-video-analyser/
 https://pypi.org/project/ak-video-analyser/
+https://packaging.python.org/en/latest/tutorials/packaging-projects/
 
+Preparing packages
+---------------------
+py -m pip install --upgrade build
+py -m build
 
 Testing package
 ---------------------
 twine upload --repository testpypi ./dist/*
-URL: https://test.pypi.org/project/ak-video-analyser/
+URL: https://test.pypi.org/project/ak-frame-extractor/
 
 pip install -i https://test.pypi.org/simple/ ak-video-analyser
 
