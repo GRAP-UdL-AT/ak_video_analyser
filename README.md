@@ -13,7 +13,7 @@ developed tools.
 
 |                           |
 |---------------------------|
-| ![SOFTWARE_FAMILY](https://github.com/GRAP-UdL-AT/ak_video_analyser/blob/main/docs/img/SOFTWAREX_article_04_fig_01.png?raw=true) |
+| ![SOFTWARE_FAMILY](https://github.com/GRAP-UdL-AT/ak_video_analyser/blob/main/docs/img/ak_fruit_family.png?raw=true) |
 | Fig. 1. a) Proposed stages of data acquisition and extraction for AKFruitData and AKFruitYield. Dashed green lines correspond to processes related to acquisition, red lines to processes related to data creation and training, and black lines to processes for performance estimation. b) Interoperability between the data acquisition ([AK_ACQS](https://github.com/GRAP-UdL-AT/ak_acquisition_system); [AK_SM_RECORDER](https://github.com/GRAP-UdL-AT/ak_sm_recorder)), data creation ([AK_FRAEX](https://github.com/GRAP-UdL-AT/ak_frame_extractor)), algorithm simulation ([AK_SIMULATOR](https://github.com/GRAP-UdL-AT/ak-size-estimation)) and video analysis ([AK_VIDEO_ANALYSER](https://github.com/GRAP-UdL-AT/ak_video_analyser/)) modules. The processes proposed in Figure 1 are expanded and represented by the developed software.|
 
 | Package                   | Description            |
@@ -26,7 +26,7 @@ developed tools.
 
 | Package                   | Description            |
 |---------------------------|-------------------------|
-| AK_SIMULATOR - Azure Kinect Size Estimation & Weight Prediction Simulator ([https://github.com/GRAP-UdL-AT/ak_simulator/](https://github.com/GRAP-UdL-AT/ak_simulator/)) | Python based GUI tool for fruit size estimation and weight prediction. |
+| AK_SW_BENCHMARKER - Azure Kinect Size Estimation & Weight Prediction Benchmarker ([https://github.com/GRAP-UdL-AT/ak_sw_benchmarker/](https://github.com/GRAP-UdL-AT/ak_sw_benchmarker/)) | Python based GUI tool for fruit size estimation and weight prediction. |
 | AK_VIDEO_ANALYSER - Azure Kinect Video Analyser ([https://github.com/GRAP-UdL-AT/ak_video_analyser/](https://github.com/GRAP-UdL-AT/ak_video_analyser/)) | Python based GUI tool for fruit size estimation and weight prediction from videos. |
 | Table 2. | Modules developed under the AKFruitYield family |
 
