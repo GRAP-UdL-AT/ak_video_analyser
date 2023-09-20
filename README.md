@@ -1,9 +1,9 @@
 # AKFruitYield: AK_VIDEO_ANALYSER - Azure Kinect Video Analyser
 
 AKFruitYield is a modular software that allows orchard data from RGB-D Azure Kinect cameras to be processed for fruit
-size and fruit yield estimation. Specifically, two modules have been developed: i) [AK_SIMULATOR](https://github.com/GRAP-UdL-AT/ak_simulator/) that makes it possible
+size and fruit yield estimation. Specifically, two modules have been developed: i) [AK_SW_BENCHMARKER](https://pypi.org/project/ak-sw-benchmarker/) that makes it possible
 to apply different sizing algorithms and allometric yield prediction models to manually labeled color and depth tree
-images; and ii) [AK_VIDEO_ANALYSER](https://github.com/GRAP-UdL-AT/ak_video_analyser/) that analyses videos on which to automatically detect apples, estimate their size and
+images; and ii) [AK_VIDEO_ANALYSER](https://pypi.org/project/ak-video-analyser/) that analyses videos on which to automatically detect apples, estimate their size and
 predict yield at the plot or per hectare scale using the appropriate simulated algorithms. Both modules have easy-to-use
 graphical interfaces and provide reports that can subsequently be used by other analysis tools.
 
@@ -19,15 +19,15 @@ developed tools.
 | Package                   | Description            |
 |---------------------------|-------------------------|
 | AK_ACQS Azure Kinect Acquisition System ([https://github.com/GRAP-UdL-AT/ak_acquisition_system](https://github.com/GRAP-UdL-AT/ak_acquisition_system)) | AK_ACQS is a software solution for data acquisition in fruit orchards using a sensor system boarded on a terrestrial vehicle. It allows the coordination of computers and sensors through the sending of remote commands via a GUI. At the same time, it adds an abstraction layer on library stack of each sensor, facilitating its integration. This software solution is supported by a local area network (LAN), which connects computers and sensors from different manufacturers ( cameras of different technologies, GNSS receiver) for in-field fruit yield testing. |
-| AK_SM_RECORDER - Azure Kinect Standalone Mode ([https://github.com/GRAP-UdL-AT/ak_sm_recorder](https://github.com/GRAP-UdL-AT/ak_sm_recorder)) | A simple GUI recorder based on Python to manage Azure Kinect camera devices in a standalone mode. https://pypi.org/project/ak-sm-recorder/ |
-| AK_FRAEX - Azure Kinect Frame Extractor ([https://github.com/GRAP-UdL-AT/ak_frame_extractor](https://github.com/GRAP-UdL-AT/ak_frame_extractor)) | AK_FRAEX is a desktop tool created for post-processing tasks after field acquisition. It enables the extraction of information from videos recorded in MKV format with the Azure Kinect camera. Through a GUI, the user can configure initial parameters to extract frames and automatically create the necessary metadata for a set of images. ([https://pypi.org/project/ak-frame-extractor/](https://pypi.org/project/ak-frame-extractor/))|
+| AK_SM_RECORDER - Azure Kinect Standalone Mode ([https://pypi.org/project/ak-sm-recorder/](https://pypi.org/project/ak-sm-recorder/)) | A simple GUI recorder based on Python to manage Azure Kinect camera devices in a standalone mode. https://pypi.org/project/ak-sm-recorder/ |
+| AK_FRAEX - Azure Kinect Frame Extractor ([https://pypi.org/project/ak-frame-extractor/](https://pypi.org/project/ak-frame-extractor/)) | AK_FRAEX is a desktop tool created for post-processing tasks after field acquisition. It enables the extraction of information from videos recorded in MKV format with the Azure Kinect camera. Through a GUI, the user can configure initial parameters to extract frames and automatically create the necessary metadata for a set of images. |
 | Table 1. | Modules developed under the [AKFruitData](https://doi.org/10.1016/j.softx.2022.101231) family |
 
 
 | Package                   | Description            |
 |---------------------------|-------------------------|
-| AK_SW_BENCHMARKER - Azure Kinect Size Estimation & Weight Prediction Benchmarker ([https://github.com/GRAP-UdL-AT/ak_sw_benchmarker/](https://github.com/GRAP-UdL-AT/ak_sw_benchmarker/)) | Python based GUI tool for fruit size estimation and weight prediction. ([https://pypi.org/project/ak-sw-benchmarker/](https://pypi.org/project/ak-sw-benchmarker/))|
-| AK_VIDEO_ANALYSER - Azure Kinect Video Analyser ([https://github.com/GRAP-UdL-AT/ak_video_analyser/](https://github.com/GRAP-UdL-AT/ak_video_analyser/)) | Python based GUI tool for fruit size estimation and weight prediction from videos. ([https://pypi.org/project/ak-video-analyser/](https://pypi.org/project/ak-video-analyser/))|
+| AK_SW_BENCHMARKER - Azure Kinect Size Estimation & Weight Prediction Benchmarker ([https://pypi.org/project/ak-sw-benchmarker/](https://pypi.org/project/ak-sw-benchmarker/)) | Python based GUI tool for fruit size estimation and weight prediction. |
+| AK_VIDEO_ANALYSER - Azure Kinect Video Analyser ([https://pypi.org/project/ak-video-analyser/](https://pypi.org/project/ak-video-analyser/)) | Python based GUI tool for fruit size estimation and weight prediction from videos. |
 | Table 2. | Modules developed under the AKFruitYield family |
 
 
