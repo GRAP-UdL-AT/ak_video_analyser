@@ -33,7 +33,7 @@ class VideoAnalyserAboutWindow(tk.Toplevel):
         self.attributes('-topmost', True)
         # -----------------------
         assets_path = os.path.dirname(os.path.abspath(__file__))
-        img_path_01 = os.path.join(assets_path, 'assets', 'icon_app.png')
+        img_path_01 = os.path.join(assets_path, 'assets', 'ak_video_analyser_32.png')
         self.iconphoto(False, tk.PhotoImage(file=img_path_01))
         # -----------------------
         about_label = tk.Label(self, text=self.title_str + ' ' + self.version_number_str)

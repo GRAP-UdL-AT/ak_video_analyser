@@ -170,7 +170,7 @@ class GUIAKVideoAnalyserWindow02(tk.Tk):
         # ---------------------------
         # ---------------------------
         assets_path = os.path.dirname(os.path.abspath(__file__))
-        img_path = os.path.join(assets_path, 'assets', 'icon_app.png')
+        img_path = os.path.join(assets_path, 'assets', 'ak_video_analyser_32.png')
         self.iconphoto(False, tk.PhotoImage(file=img_path))
         # ---------------------------
         # --------------------------------------------

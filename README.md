@@ -26,8 +26,8 @@ developed tools.
 
 | Package                   | Description            |
 |---------------------------|-------------------------|
-| AK_SW_BENCHMARKER - Azure Kinect Size Estimation & Weight Prediction Benchmarker ([https://github.com/GRAP-UdL-AT/ak_sw_benchmarker/](https://github.com/GRAP-UdL-AT/ak_sw_benchmarker/)) | Python based GUI tool for fruit size estimation and weight prediction. |
-| AK_VIDEO_ANALYSER - Azure Kinect Video Analyser ([https://github.com/GRAP-UdL-AT/ak_video_analyser/](https://github.com/GRAP-UdL-AT/ak_video_analyser/)) | Python based GUI tool for fruit size estimation and weight prediction from videos. |
+| AK_SW_BENCHMARKER - Azure Kinect Size Estimation & Weight Prediction Benchmarker ([https://github.com/GRAP-UdL-AT/ak_sw_benchmarker/](https://github.com/GRAP-UdL-AT/ak_sw_benchmarker/)) | Python based GUI tool for fruit size estimation and weight prediction. ([https://pypi.org/project/ak-sw-benchmarker/](https://pypi.org/project/ak-sw-benchmarker/))|
+| AK_VIDEO_ANALYSER - Azure Kinect Video Analyser ([https://github.com/GRAP-UdL-AT/ak_video_analyser/](https://github.com/GRAP-UdL-AT/ak_video_analyser/)) | Python based GUI tool for fruit size estimation and weight prediction from videos. ([https://pypi.org/project/ak-video-analyser/](https://pypi.org/project/ak-video-analyser/))|
 | Table 2. | Modules developed under the AKFruitYield family |
 
 
