@@ -259,18 +259,18 @@ juancarlos.miranda@udl.cat
 If you find this code useful, please consider citing:
 
 ```
-@article{MIRANDA2022101231,
-title = {AKFruitYield: Modular simulation and video analysis software for Azure Kinect cameras for fruit size and fruit yield estimation in apple orchards},
+@article{MIRANDA2023101548,
+title = {AKFruitYield: Modular benchmarking and video analysis software for Azure Kinect cameras for fruit size and fruit yield estimation in apple orchards},
 journal = {SoftwareX},
-volume = {XX},
-pages = {000000},
+volume = {24},
+pages = {101548},
 year = {2023},
-issn = {0000-0000},
-doi = {},
-url = {},
+issn = {2352-7110},
+doi = {https://doi.org/10.1016/j.softx.2023.101548},
+url = {https://www.sciencedirect.com/science/article/pii/S2352711023002443},
 author = {Juan Carlos Miranda and Jaume Arnó and Jordi Gené-Mola and Spyros Fountas and Eduard Gregorio},
-keywords = {RGB-D camera, apple fruit sizing, yield prediction, detection and simulation algorithms, allometry},
-abstract = {.}
+keywords = {RGB-D camera, Fruit detection, Apple fruit sizing, Yield prediction, Allometry},
+abstract = {AKFruitYield is a modular software that allows orchard data from RGB-D Azure Kinect cameras to be processed for fruit size and fruit yield estimation. Specifically, two modules have been developed: i) AK_SW_BENCHMARKER that makes it possible to apply different sizing algorithms and allometric yield prediction models to manually labelled color and depth tree images; and ii) AK_VIDEO_ANALYSER that analyses videos on which to automatically detect apples, estimate their size and predict yield at the plot or per hectare scale using the appropriate algorithms. Both modules have easy-to-use graphical interfaces and provide reports that can subsequently be used by other analysis tools.}
 }
 ```
 
